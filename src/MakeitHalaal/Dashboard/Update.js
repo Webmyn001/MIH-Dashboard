@@ -33,14 +33,14 @@ const navigate = useNavigate();
   const [getupdate, setgetUpdate] =useState([])
   console.log(getupdate)
   const getUpdate = async ()=> {
-    axios.get("http://localhost:4000/api/updates/getupdates")
+    axios.get("https://repulsive-threads-foal.cyclic.app/api/updates/getupdates")
     .then((res)=> setgetUpdate(res.data) )
     .catch((err)=> console.log(err))
     
   }
   const deleteUser = async (id) => {
     try{
-      await axios.delete(`http://localhost:4000/api/updates/deleteupdate/${id}`);
+      await axios.delete(`https://repulsive-threads-foal.cyclic.app/api/updates/deleteupdate/${id}`);
       alert("Data deleted.")
         }catch (err) 
     {
