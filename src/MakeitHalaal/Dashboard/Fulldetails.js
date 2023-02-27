@@ -51,7 +51,7 @@ function Fulldetails(props) {
             <div className="flex flex-col  items-center max-w-[400px] mb-5 justify-">
                  
                    <div>
-                   <Link to="/dashboard">
+                   <Link to="/">
                    <button className="bg-blue-500 border-2 border-blue-500 px-2 mt-4 py-1 text-white font-bold font-mono
                    tracking-wide hover:bg-gray-300 hover:text-black rounded-full">Back</button>
                    </Link>
