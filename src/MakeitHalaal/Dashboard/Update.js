@@ -17,7 +17,7 @@ const navigate = useNavigate();
     .then((res)=>
     { 
     console.log("saved succesfully")
-    navigate("/dashboard");
+    navigate("/");
     alert("form submitted succesfully")
   }).catch((err)=> {
       console.log(err)
