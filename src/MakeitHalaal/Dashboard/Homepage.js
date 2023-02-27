@@ -8,7 +8,7 @@ function Homepage(props) {
  console.log(props)
  const deleteUser = async (id) => {
   try{
-    await axios.delete(`http://localhost:4000/api/lessons/${id}`);
+    await axios.delete(`https://repulsive-threads-foal.cyclic.app/api/lessons/${id}`);
     alert("Data deleted.")
     props.getList();
       }catch (err) 
@@ -20,7 +20,7 @@ function Homepage(props) {
 
 
   return (
-    <div className=' bg-gradient-to-t  from-[#25c5d5] to-[#3360b4]'>
+    <div className=' bg-gradient-to-t min-h-screen from-[#25c5d5] to-[#3360b4]'>
       <div >
      <h1 className=" text-[#ffffff] text-center p-1 text-2xl font-bold">Make it Halal Dashboard</h1>
      </div>
@@ -32,7 +32,7 @@ function Homepage(props) {
                             <div  className="flex flex-col rounded-md items-center justify-center w-[400px] md:w-[500px]  shadow-2xl my-8 ">
 
                          
-              <img src={info.IDcardimage.url} 
+              <img src={info.IDcardImage.url} 
               alt="..." className='rounded-md object-cover' />
 
                               

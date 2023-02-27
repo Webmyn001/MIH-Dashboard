@@ -11,7 +11,7 @@ import Homepage from "./Homepage";
      const [data, setData] = useState([])
 
      const getList = async  () => {
-      axios.get("http://localhost:4000/api/lessons/")
+      axios.get("https://repulsive-threads-foal.cyclic.app/api/lessons/")
       .then(res => {
         console.log(res)
         setData(res.data)
