@@ -13,7 +13,7 @@ const navigate = useNavigate();
     e.preventDefault()
    
     
-    axios.post("http://localhost:4000/api/updates/addupdate", {Text: Text})
+    axios.post("https://repulsive-threads-foal.cyclic.app/api/updates/addupdate", {Text: Text})
     .then((res)=>
     { 
     console.log("saved succesfully")
