@@ -21,7 +21,7 @@ function Fulldetails(props) {
              <h1 className="font-bold text-2xl p-5"> Name: {data.Name}</h1>
                {/* Id card image */}
         <div>
-         <img src={data.IDcardImage.url} alt="..." className='object-cover object-fit
+         <img src={data.images[0].url} alt="..." className='object-cover object-fit
            shadow-sm w-[350px] sm:h-[500px] sm:w-[600px]'/>
         </div>
              
@@ -30,7 +30,7 @@ function Fulldetails(props) {
              {/* image jamb */}
          <div>
          <div>
-         <img src={data.IDcardImage.url} alt="..." className='object-cover
+         <img src={data.images[1].url} alt="..." className='object-cover
            shadow-sm w-[350px] sm:h-[500px] sm:w-[600px]'/>
         </div>
         </div>
