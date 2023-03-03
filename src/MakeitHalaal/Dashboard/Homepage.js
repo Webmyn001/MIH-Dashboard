@@ -32,7 +32,7 @@ function Homepage(props) {
                             <div  className="flex flex-col rounded-md items-center justify-center w-[400px] md:w-[500px]  shadow-2xl my-8 ">
 
                          
-              <img src={info.IDcardImage.url} 
+              <img src={info.images[0].url} 
               alt="..." className='rounded-md object-cover' />
 
                               
