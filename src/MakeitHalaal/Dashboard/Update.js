@@ -66,7 +66,7 @@ const navigate = useNavigate();
       <h1 className='font-bold text-xl pt-5 text-white text-center'> Latest Updates </h1>
       {
         getupdate.map((update)=>(
-          <div key={update._id} className=" w-[250px] border border-black mb-3 rounded-md px-3 py-3 shadow-2xl flex flex-col justify-center items-center">
+          <div key={update._id} className=" w-[300px] border border-black mb-3 rounded-md px-3 py-3 shadow-2xl flex flex-col justify-center items-center">
       <h1 className='font-semibold text-xm px-3 '>{update.Text}</h1>
       <button onClick={()=>deleteUser(update._id)}
       className="bg-red-600 text-white mt-3 rounded-md px-2 py-1">Delete</button>
