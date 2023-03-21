@@ -33,7 +33,7 @@ function Homepage(props) {
 
                          
               <img src={info.images[0].url} 
-              alt="..." className='rounded-md object-cover w-[300px] h-[250px]' />
+              alt="..." className='rounded-md object-cover w-[300px] h-[300px]' />
 
                               
                             <h1 className="text-2xl font-bold p-8 pt-1 pb-0 mt-1">  {info.Name} </h1>
