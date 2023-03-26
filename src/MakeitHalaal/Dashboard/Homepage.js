@@ -36,8 +36,8 @@ function Homepage(props) {
               alt="..." className='rounded-md object-cover w-[300px] h-[300px]' />
 
                               
-                            <h1 className="text-2xl font-bold p-8 pt-1 pb-0 mt-1">  {info.Name} </h1>
-                            <h1 className="text-2xl font-bold p-8 pt-1 pb-0 mt-1">  {info.School} </h1>
+                            <h1 className="text-xl font-bold text-center p-8 pt-1 pb-0 mt-1">  {info.Name} </h1>
+                            <h1 className="text-xl font-bold p-8 pt-1 text-center pb-0 mt-1">  {info.School} </h1>
 
                               
                               
