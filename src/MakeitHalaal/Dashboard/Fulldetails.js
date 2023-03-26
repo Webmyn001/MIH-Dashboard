@@ -18,7 +18,7 @@ function Fulldetails(props) {
             <div className=" flex items-center  justify-center ">
               
                <div className="flex flex-col items-center  max-w-[400px] sm:max-w-[500px] md:max-w-[800px] shadow-2xl justify-center">
-             <h1 className="font-bold text-2xl p-5"> Name: {data.Name}</h1>
+             <h1 className="font-bold text-xl text-center p-5"> Name: {data.Name}</h1>
                {/* Id card image */}
         <div>
          <img src={data.images[0].url} alt="..." className='object-cover object-fit
@@ -26,7 +26,7 @@ function Fulldetails(props) {
         </div>
              
              
-             <h1 className="font-bold text-2xl p-5"> School :{data.School}</h1>
+             <h1 className="font-bold text-xl text-center p-5"> School :{data.School}</h1>
              {/* image jamb */}
          <div>
          <div>
@@ -34,11 +34,11 @@ function Fulldetails(props) {
            shadow-sm w-[350px] sm:h-[500px] sm:w-[600px]'/>
         </div>
         </div>
-             <h1 className=" text-xl font-normal text-gray-700  px-5">Bank Name: {data.BankName}</h1>
-             <h1 className=" text-xl font-normal text-gray-700  px-5">Account Name: {data.AcctName}</h1>
-             <h1 className=" text-xl font-normal text-gray-700  px-5">Account Number: {data.AcctNo}</h1>
-             <h1 className=" text-xl font-normal text-gray-700  px-5">Whatsapp Number: {data.Whatsapp}</h1>
-             <h1 className=" text-xl font-normal text-gray-700  px-5"> Short Note:{data.Shortnote}</h1>
+             <h1 className=" text-xl font-bold text-center text-gray-700  px-5">Bank Name: {data.BankName}</h1>
+             <h1 className=" text-xl font-bold text-center text-gray-700  px-5">Account Name: {data.AcctName}</h1>
+             <h1 className=" text-xl font-bold text-center text-gray-700  px-5">Account Number: {data.AcctNo}</h1>
+             <h1 className=" text-xl font-bold text-center text-gray-700  px-5">Whatsapp Number: {data.Whatsapp}</h1>
+             <h1 className=" text-xl font-bold text-center text-gray-700  px-5"> Short Note:{data.Shortnote}</h1>
 
 
                 
